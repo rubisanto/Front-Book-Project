@@ -6,11 +6,17 @@ export default function Navbar() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
-            <Link href="/catalog">
-              <a className="text-white">Catalog</a>
+            <Link href="/" className="text-white">
+              Acceuil
             </Link>
-            <Link href="/my-books">
-              <a className="ml-4 text-white">My Books</a>
+            <Link href="/catalog" className="text-white m-6">
+              Catalogue
+            </Link>
+            <Link href="/my-books" className="text-white m-6">
+              My Books
+            </Link>
+            <Link href="/logout" className="text-white m-6 justify-end">
+              Logout
             </Link>
           </div>
         </div>
